@@ -1,0 +1,12 @@
+ main()
+{
+	float a;
+	cout<<"Enter marks obtained  ";
+	cin>>a;
+	if((a<0)||(a>100)) cout<<"Invlid Input ";
+	else if((a>=85)&&(a<=100))cout<<" Grade A ";
+	else if((a>=70)&&(a<=84))cout<<" Grade B ";
+	else if((a>=55)&&(a<=69))cout<<" Grade C ";
+	else if((a>=40)&&(a<=54))cout<<" Grade D ";
+	else cout<<" Failed ";
+}
